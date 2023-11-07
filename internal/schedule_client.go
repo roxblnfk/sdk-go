@@ -92,7 +92,7 @@ type (
 		Comment string
 	}
 
-	// ScheduleBackfill desribes a time periods and policy and takes Actions as if that time passed by right now, all at once.
+	// ScheduleBackfill describes a time periods and policy and takes Actions as if that time passed by right now, all at once.
 	ScheduleBackfill struct {
 		// Start - start of the range to evaluate schedule in.
 		Start time.Time
